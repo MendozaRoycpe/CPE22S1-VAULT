@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "Home",
+      "path": "00 Home.md"
+    },
+    {
+      "type": "file",
+      "title": "Weekly Timetable",
+      "path": "01 Schedule/Weekly Timetable.md"
+    },
+    {
+      "type": "file",
+      "title": "Deadlines",
+      "path": "01 Schedule/Deadlines.md"
+    }
+  ]
+}
