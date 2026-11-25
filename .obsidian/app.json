@@ -1,1 +1,12 @@
-{}
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "07 Inbox",
+  "attachmentFolderPath": "08 Attachments",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "showLineNumber": true,
+  "spellcheck": true,
+  "promptDelete": true,
+  "propertiesInDocument": "visible"
+}
