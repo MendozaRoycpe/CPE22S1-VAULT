@@ -2,14 +2,14 @@
 
 <h1>CPE22S1-VAULT</h1>
 
-<p><b>Obsidian study vault for section CPE21S1</b><br>
+<p><b>Course notes for section CPE21S1</b><br>
 First Semester SY 2026-2027 &middot; Technological Institute of the Philippines</p>
 
 <p>
-  <a href="#quick-start">Quick Start</a> &middot;
   <a href="#courses">Courses</a> &middot;
-  <a href="#vault-structure">Structure</a> &middot;
-  <a href="#workflow">Workflow</a> &middot;
+  <a href="#inside-each-course">Inside Each Course</a> &middot;
+  <a href="#timetable">Timetable</a> &middot;
+  <a href="#quick-start">Quick Start</a> &middot;
   <a href="#git-routine">Git Routine</a>
 </p>
 
@@ -17,40 +17,67 @@ First Semester SY 2026-2027 &middot; Technological Institute of the Philippines<
 
 <hr>
 
-<h2 id="overview">Overview</h2>
-
-<p>This repository is an Obsidian vault. It holds lecture notes, reviewers, assignments, exam prep, study session notes, and the weekly timetable for ten courses. It uses only built-in Obsidian features, so no community plugins are required.</p>
-
-<h2 id="quick-start">Quick Start</h2>
-
-<ol>
-  <li>Install <a href="https://obsidian.md">Obsidian</a>.</li>
-  <li>Clone this repository outside any cloud-synced folder (OneDrive can cause file conflicts):<br>
-    <code>git clone https://github.com/MendozaRoycpe/CPE22S1-VAULT.git</code></li>
-  <li>In Obsidian, choose <b>Open folder as vault</b> and select the cloned folder.</li>
-  <li>Open <code>00 Home.md</code> and read <code>How This Vault Works.md</code>.</li>
-  <li>Check <b>Settings &gt; Core plugins</b>: <b>Templates</b> and <b>Daily notes</b> must be on.</li>
-</ol>
-
 <h2 id="courses">Courses</h2>
+
+<p>Each folder holds everything for one course. Open a folder from the table.</p>
 
 <table>
   <thead>
-    <tr><th>Code</th><th>Course</th><th>Days</th><th>Room</th></tr>
+    <tr><th>Course</th><th>Title</th><th>Days</th><th>Room</th><th>Instructor</th><th>Introduction</th></tr>
   </thead>
   <tbody>
-    <tr><td>CPE 013</td><td>Logic Circuits and Design</td><td>Tue, Thu</td><td>5424 (Tue), 5426 (Thu)</td></tr>
-    <tr><td>CPE 18A</td><td>Emerging Technologies 1 in CPE</td><td>Wed</td><td>3201</td></tr>
-    <tr><td>CPE 021A</td><td>Computer Architecture and Organization</td><td>Fri</td><td>3201</td></tr>
-    <tr><td>CPE 011A</td><td>Database Management</td><td>Wed, Sat</td><td>5218</td></tr>
-    <tr><td>CPE 111</td><td>IoT and Applications</td><td>Wed, Fri</td><td>5424 (Wed), 5426 (Fri)</td></tr>
-    <tr><td>CPE 302</td><td>Computer Networks</td><td>Sat (two sessions)</td><td>5202, 5206</td></tr>
-    <tr><td>CPE 015A</td><td>Optimization Techniques</td><td>Sat</td><td>5310A</td></tr>
-    <tr><td>MATH 020</td><td>Numerical Methods</td><td>Tue, Thu</td><td>5306</td></tr>
-    <tr><td>GEC 002</td><td>Reading in Philippine History</td><td>Tue, Thu</td><td>5402</td></tr>
-    <tr><td>PATHFIT 4</td><td>PathFit 4</td><td>Fri</td><td>2F</td></tr>
+    <tr><td><a href="CPE%20013%20-%20Logic%20Circuits%20and%20Design"><b>CPE 013</b></a></td><td>Logic Circuits and Design</td><td>Tue, Thu</td><td>5424 (Tue), 5426 (Thu)</td><td>Lloyd Aldrin T. Pornobi</td><td><a href="CPE%20013%20-%20Logic%20Circuits%20and%20Design/CPE%20013%20Course%20Introduction.md">Read</a></td></tr>
+    <tr><td><a href="CPE%2018A%20-%20Emerging%20Technologies%201%20in%20CPE"><b>CPE 18A</b></a></td><td>Emerging Technologies 1 in CPE</td><td>Wed</td><td>3201</td><td>-</td><td>-</td></tr>
+    <tr><td><a href="CPE%20021A%20-%20Computer%20Architecture%20and%20Organization"><b>CPE 021A</b></a></td><td>Computer Architecture and Organization</td><td>Fri</td><td>3201</td><td>-</td><td>-</td></tr>
+    <tr><td><a href="CPE%20011A%20-%20Database%20Management"><b>CPE 011A</b></a></td><td>Database Management</td><td>Wed, Sat</td><td>5218</td><td>-</td><td>-</td></tr>
+    <tr><td><a href="CPE%20111%20-%20IoT%20and%20Applications"><b>CPE 111</b></a></td><td>IoT and Applications</td><td>Wed, Fri</td><td>5424 (Wed), 5426 (Fri)</td><td>-</td><td>-</td></tr>
+    <tr><td><a href="CPE%20302%20-%20Computer%20Networks"><b>CPE 302</b></a></td><td>Computer Networks</td><td>Sat (two sessions)</td><td>5202, 5206</td><td>-</td><td>-</td></tr>
+    <tr><td><a href="CPE%20015A%20-%20Optimization%20Techniques"><b>CPE 015A</b></a></td><td>Optimization Techniques</td><td>Sat</td><td>5310A</td><td>-</td><td>-</td></tr>
+    <tr><td><a href="MATH%20020%20-%20Numerical%20Methods"><b>MATH 020</b></a></td><td>Numerical Methods</td><td>Tue, Thu</td><td>5306</td><td>-</td><td>-</td></tr>
+    <tr><td><a href="GEC%20002%20-%20Reading%20in%20Philippine%20History"><b>GEC 002</b></a></td><td>Reading in Philippine History</td><td>Tue, Thu</td><td>5402</td><td>Dr. Ernesto Pamo, LPT</td><td><a href="GEC%20002%20-%20Reading%20in%20Philippine%20History/GEC%20002%20Course%20Introduction.md">Read</a></td></tr>
+    <tr><td><a href="PATHFIT%204%20-%20PathFit%204"><b>PATHFIT 4</b></a></td><td>PathFit 4</td><td>Fri</td><td>2F</td><td>-</td><td>-</td></tr>
   </tbody>
 </table>
+
+<h2 id="inside-each-course">Inside Each Course</h2>
+
+<table>
+  <thead>
+    <tr><th>Item</th><th>Contents</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>&lt;CODE&gt; Index.md</code></td><td>Class schedule, course info, syllabus topics, assessments, and note formats</td></tr>
+    <tr><td><code>&lt;CODE&gt; Course Introduction.md</code></td><td>Instructor, grading, and course rules (CPE 013 and GEC 002 so far)</td></tr>
+    <tr><td><code>Lecture Notes/</code></td><td>One note per class, named <code>YYYY-MM-DD Topic</code></td></tr>
+    <tr><td><code>Reviewers/</code></td><td>Reviewers for quizzes and exams</td></tr>
+    <tr><td><code>Assignments/</code></td><td>Activities, hands-on work, and assignments</td></tr>
+    <tr><td><code>Quizzes and Exams/</code></td><td>Quiz and exam records and prep</td></tr>
+    <tr><td><code>Files/</code></td><td>Handouts, slides, and other files</td></tr>
+  </tbody>
+</table>
+
+<details>
+<summary><b>After every class</b></summary>
+
+<ol>
+  <li>Create a note in the course's <code>Lecture Notes</code> folder.</li>
+  <li>Follow the lecture note format in the course Index, including <b>Persons, Dates, and Events</b>.</li>
+  <li>Add any new quiz, exam, or submission date to the Assessments table in the course Index.</li>
+</ol>
+
+</details>
+
+<details>
+<summary><b>Before a quiz or exam</b></summary>
+
+<ol>
+  <li>Build a reviewer in <code>Reviewers</code> from your lecture notes.</li>
+  <li>Export a PDF copy: File menu &gt; <b>Export to PDF</b> in Obsidian.</li>
+</ol>
+
+</details>
+
+<h2 id="timetable">Timetable</h2>
 
 <details>
 <summary><b>Weekly timetable</b></summary>
@@ -83,62 +110,15 @@ First Semester SY 2026-2027 &middot; Technological Institute of the Philippines<
 
 </details>
 
-<h2 id="vault-structure">Vault Structure</h2>
-
-<table>
-  <thead>
-    <tr><th>Folder</th><th>Purpose</th></tr>
-  </thead>
-  <tbody>
-    <tr><td><code>00 Home.md</code></td><td>Dashboard with course links and live lists of notes</td></tr>
-    <tr><td><code>01 Schedule/</code></td><td>Weekly timetable and deadlines</td></tr>
-    <tr><td><code>02 Courses/</code></td><td>One folder per course: index note plus Lecture Notes, Reviewers, Assignments, Quizzes and Exams, Files</td></tr>
-    <tr><td><code>03 Templates/</code></td><td>Lecture Note, Reviewer, Assignment, Quiz or Exam Prep, Study Session, Weekly Review, Daily Note</td></tr>
-    <tr><td><code>04 Projects/</code></td><td>Project tracker and repository links</td></tr>
-    <tr><td><code>05 Study Sessions/</code></td><td>One note per group study session</td></tr>
-    <tr><td><code>06 Daily/</code></td><td>Daily notes</td></tr>
-    <tr><td><code>07 Inbox/</code></td><td>Default location for new notes. File them into a course folder later</td></tr>
-    <tr><td><code>08 Attachments/</code></td><td>Pasted images and files</td></tr>
-    <tr><td><code>09 Resources/</code></td><td>Programming languages roadmap and links</td></tr>
-  </tbody>
-</table>
-
-<h2 id="workflow">Workflow</h2>
-
-<details open>
-<summary><b>After every class</b></summary>
+<h2 id="quick-start">Quick Start</h2>
 
 <ol>
-  <li>Create a note and insert the <b>Lecture Note</b> template: <kbd>Ctrl</kbd>+<kbd>P</kbd>, then <b>Templates: Insert template</b>.</li>
-  <li>Fill in <b>Persons, Dates, and Events</b> for every person named in the lecture.</li>
-  <li>Move the note into the course's <code>Lecture Notes</code> folder.</li>
-  <li>Add any new quiz, exam, or submission to <code>01 Schedule/Deadlines.md</code>.</li>
+  <li>Install <a href="https://obsidian.md">Obsidian</a>.</li>
+  <li>Clone this repository outside any cloud-synced folder (OneDrive can cause file conflicts):<br>
+    <code>git clone https://github.com/MendozaRoycpe/CPE22S1-VAULT.git</code></li>
+  <li>In Obsidian, choose <b>Open folder as vault</b> and select the cloned folder.</li>
+  <li>Open a course Index note, for example <code>CPE 013 Index</code>.</li>
 </ol>
-
-</details>
-
-<details>
-<summary><b>Before a quiz or exam</b></summary>
-
-<ol>
-  <li>Create a note from the <b>Quiz or Exam Prep</b> template.</li>
-  <li>Build a reviewer from the <b>Reviewer</b> template, using your lecture notes.</li>
-  <li>Export a PDF copy: File menu &gt; <b>Export to PDF</b>.</li>
-</ol>
-
-</details>
-
-<details>
-<summary><b>Naming convention</b></summary>
-
-<ul>
-  <li>Lecture notes: <code>YYYY-MM-DD Topic</code></li>
-  <li>Assignments: <code>HOA 1 Topic</code> or <code>Assignment 1 Topic</code></li>
-  <li>Reviewers: <code>Prelim Reviewer</code> or <code>Quiz 1 Reviewer</code></li>
-  <li>Study sessions: <code>YYYY-MM-DD Course Topic</code></li>
-</ul>
-
-</details>
 
 <h2 id="git-routine">Git Routine</h2>
 
@@ -148,12 +128,9 @@ First Semester SY 2026-2027 &middot; Technological Institute of the Philippines<
   <li>Push: <code>git push</code></li>
 </ol>
 
-<p>Edits made by Claude arrive on the <code>claude-edits</code> branch. Review and merge them on GitHub, then run <code>git pull</code>.</p>
-
-<p><b>Notes:</b></p>
 <ul>
   <li>Do not use <code>git push --force</code>. It deletes remote-only changes.</li>
-  <li><code>.obsidian/workspace.json</code> is ignored, so window layouts are not committed.</li>
+  <li>Obsidian settings (<code>.obsidian/</code>) are not committed.</li>
   <li>Encode parentheses in Markdown URLs as <code>%28</code> and <code>%29</code>.</li>
   <li>Do not commit passwords, tokens, or webhook URLs.</li>
 </ul>
