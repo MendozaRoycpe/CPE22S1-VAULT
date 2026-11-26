@@ -26,5 +26,8 @@
   "zk-prefixer": false,
   "random-note": false,
   "footnotes": false,
-  "bases": true
+  "bases": true,
+  "slides": false,
+  "audio-recorder": false,
+  "webviewer": false
 }
