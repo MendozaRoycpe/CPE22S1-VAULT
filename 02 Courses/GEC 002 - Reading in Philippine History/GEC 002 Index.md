@@ -4,7 +4,7 @@ code: GEC 002
 course: Reading in Philippine History
 section: CPE21S1
 term: First Semester SY 2026-2027
-instructor:
+instructor: Dr. Ernesto Pamo, LPT
 tags: [course, gec002]
 ---
 # GEC 002 - Reading in Philippine History
@@ -16,10 +16,11 @@ tags: [course, gec002]
 | Thursday | 12:00-1:30 PM | 5402 |
 
 ## Course Info
-- Instructor:
+- Introduction: [[GEC 002 Course Introduction]]
+- Instructor: Dr. Ernesto Pamo, LPT
 - LMS link:
 - Discord forum: #gec-002-reading-in-philippine-history
-- Grading breakdown:
+- Grading breakdown: Oral recitation and class discussions 40%, quizzes 40%, activities and assignments 20% (see [[GEC 002 Course Introduction]], section 4)
 
 ## Languages and Tools
 Primary-source readings. Record names, dates, and events for every lecture.
