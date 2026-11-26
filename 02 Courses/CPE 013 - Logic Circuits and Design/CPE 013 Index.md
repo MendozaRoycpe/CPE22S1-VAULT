@@ -4,7 +4,7 @@ code: CPE 013
 course: Logic Circuits and Design
 section: CPE21S1
 term: First Semester SY 2026-2027
-instructor:
+instructor: Lloyd Aldrin T. Pornobi
 tags: [course, cpe013]
 ---
 # CPE 013 - Logic Circuits and Design
@@ -16,10 +16,12 @@ tags: [course, cpe013]
 | Thursday | 7:30-10:30 AM | 5426 |
 
 ## Course Info
-- Instructor:
+- Introduction: [[CPE 013 Course Introduction]]
+- Instructor: Lloyd Aldrin T. Pornobi (lloyd.pornobi@tip.edu.ph)
+- Consultation: TBA
 - LMS link:
 - Discord forum: #cpe-013-logic-circuits-and-design
-- Grading breakdown:
+- Grading breakdown: see [[CPE 013 Course Introduction]], section 6
 
 ## Languages and Tools
 Boolean algebra, truth tables, K-maps, circuit simulators. HDL (Verilog/VHDL) only if the course requires it.
